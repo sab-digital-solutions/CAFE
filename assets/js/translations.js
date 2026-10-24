@@ -1,0 +1,42 @@
+/* UI text (EN/AR). Product and branch text lives in products.js / branches-data.js. */
+window.I18N = {
+en: {
+ skip:"Skip to content", nav_home:"Home", nav_menu:"Menu", nav_branches:"Our Branches", nav_contact:"Contact", other_lang:"العربية", menu_btn:"Menu", top:"Back to top",
+ t_home:"Home", t_menu:"Menu", t_branches:"Our Branches", t_contact:"Contact",
+ d_home:"Exceptional coffee, freshly baked favorites and desserts worth slowing down for.", d_menu:"Espresso, cold desserts, cinnamon rolls, croissants, sandwiches, muffins, éclairs, cheesecake and macarons.", d_branches:"Find one of our two branches.", d_contact:"Contact us by phone, WhatsApp or message.",
+ h_kick:"Café & Pâtisserie", h_title:"Your Daily Moment of Delight", h_sub:"Exceptional coffee, freshly baked favorites, and desserts worth slowing down for.", h_cta:"Explore Our Menu", h_cta2:"Find Our Branches",
+ fact1:"9 menu categories", fact2:"2 branches", fact3:"Coffee, bakes & desserts",
+ cats_t:"Find your favorite", view_all:"View all", best_t:"Best sellers", price_note:"All prices are illustrative samples (₪) and can be changed.",
+ about_t:"Coffee and something sweet", about_p:"Crema is a place for slow coffee and good pastry. Stop by for a croissant on your way out, or stay a while with a cheesecake and an espresso.", ab1:"Espresso and iced coffee", ab2:"Cinnamon rolls, croissants and muffins", ab3:"Éclairs, cheesecake and macarons", demo_note:"Sample brand text. Replace before launch.",
+ br_t:"Visit us", demo_loc:"Branch names, addresses and hours on this site are demo examples, not real locations.",
+ cta_t:"Ready for your next treat?", cta_p:"Browse the full menu, then stop by one of our two branches.",
+ menu_t:"Our Menu", menu_p:"Pick a category or browse everything. Prices are samples.", all:"All", best:"Best Seller", fav:"Customer Favorite", sd1:"Single", sd2:"Double", sl1:"Small", sl2:"Large",
+ brs_t:"Our Branches", brs_p:"Two places to enjoy your coffee and something sweet.", view_loc:"View Location", directions:"Get Directions", addr:"Address", hours:"Hours", phone:"Phone",
+ demo_map:"Demo map placeholder. Add the real address in branches-data.js to show a live map.", demo_dir:"Demo address. Real directions will be available once the actual address is added.",
+ ct_t:"Contact Us", ct_p:"A question, a cake order or feedback? We'd love to hear from you.", call:"Call us", email_l:"Email", wa:"WhatsApp", wa_t:"Chat on WhatsApp", demo_tag:"Demo contact details",
+ form_t:"Send us a message", f_name:"Full name", f_email:"Email", f_phone:"Phone (optional)", f_msg:"Message", f_send:"Send message",
+ e_name:"Please enter your name.", e_email:"Please enter a valid email address.", e_msg:"Please write a message of at least 10 characters.",
+ ok:"Preview: your message looks good. This demo form doesn't send anything yet.", sent:"Thank you! Your message was sent.", fail:"We couldn't send your message. Please try WhatsApp instead.",
+ social_t:"Follow us", biz_t:"Business inquiries", biz_p:"For events, catering and partnerships, write to us and mention “Business”.",
+ ft_p:"Coffee, pastries and desserts.", ft_links:"Pages", ft_follow:"Follow us", rights:"All rights reserved."
+},
+ar: {
+ skip:"انتقل إلى المحتوى", nav_home:"الرئيسية", nav_menu:"القائمة", nav_branches:"فروعنا", nav_contact:"تواصل معنا", other_lang:"English", menu_btn:"القائمة", top:"العودة للأعلى",
+ t_home:"الرئيسية", t_menu:"القائمة", t_branches:"فروعنا", t_contact:"تواصل معنا",
+ d_home:"قهوة استثنائية، ومخبوزات طازجة، وحلويات تستحق أن تتمهّل عندها.", d_menu:"إسبريسو وحلويات باردة ورولات قرفة وكرواسون وساندويشات ومافن وإكلير وتشيز كيك وماكرون.", d_branches:"اعثر على أحد فرعينا.", d_contact:"تواصل معنا عبر الهاتف أو واتساب أو رسالة.",
+ h_kick:"كافيه وباتيسري", h_title:"لحظتك اليومية من البهجة", h_sub:"قهوة استثنائية، ومخبوزات طازجة، وحلويات تستحق أن تتمهّل عندها.", h_cta:"تصفّح قائمتنا", h_cta2:"اعثر على فروعنا",
+ fact1:"9 أقسام في القائمة", fact2:"فرعان", fact3:"قهوة ومخبوزات وحلويات",
+ cats_t:"اختر مفضّلك", view_all:"عرض الكل", best_t:"الأكثر مبيعاً", price_note:"جميع الأسعار أمثلة توضيحية (₪) ويمكن تغييرها.",
+ about_t:"قهوة ولمسة حلوة", about_p:"كريما مكان للقهوة الهادئة والمعجنات الطيبة. مرّ علينا لتأخذ كرواسون في طريقك، أو اجلس معنا مع قطعة تشيز كيك وفنجان إسبريسو.", ab1:"إسبريسو وقهوة مثلجة", ab2:"رولات القرفة والكرواسون والمافن", ab3:"إكلير وتشيز كيك وماكرون", demo_note:"نص تجريبي للعلامة التجارية. يُستبدل قبل الإطلاق.",
+ br_t:"زورونا", demo_loc:"أسماء الفروع والعناوين وساعات الدوام في هذا الموقع أمثلة تجريبية وليست مواقع حقيقية.",
+ cta_t:"جاهز لمكافأتك القادمة؟", cta_p:"تصفّح القائمة كاملة، ثم زر أحد فرعينا.",
+ menu_t:"قائمتنا", menu_p:"اختر قسماً أو تصفّح كل الأصناف. الأسعار أمثلة.", all:"الكل", best:"الأكثر مبيعاً", fav:"مفضّل الزبائن", sd1:"سنجل", sd2:"دبل", sl1:"صغير", sl2:"كبير",
+ brs_t:"فروعنا", brs_p:"مكانان للاستمتاع بالقهوة وشيء حلو.", view_loc:"عرض الموقع", directions:"الاتجاهات", addr:"العنوان", hours:"الدوام", phone:"الهاتف",
+ demo_map:"خريطة تجريبية. أضف العنوان الحقيقي في branches-data.js لعرض خريطة فعلية.", demo_dir:"عنوان تجريبي. ستتوفر الاتجاهات الحقيقية بعد إضافة العنوان الفعلي.",
+ ct_t:"تواصل معنا", ct_p:"سؤال أو طلب كيكة أو ملاحظة؟ يسعدنا سماعك.", call:"اتصل بنا", email_l:"البريد", wa:"واتساب", wa_t:"تحدّث معنا عبر واتساب", demo_tag:"بيانات تواصل تجريبية",
+ form_t:"أرسل لنا رسالة", f_name:"الاسم الكامل", f_email:"البريد الإلكتروني", f_phone:"الهاتف (اختياري)", f_msg:"الرسالة", f_send:"إرسال الرسالة",
+ e_name:"يرجى إدخال اسمك.", e_email:"يرجى إدخال بريد إلكتروني صحيح.", e_msg:"يرجى كتابة رسالة لا تقل عن 10 أحرف.",
+ ok:"معاينة: رسالتك سليمة. هذا النموذج تجريبي ولا يرسل أي شيء حالياً.", sent:"شكراً لك! تم إرسال رسالتك.", fail:"تعذّر إرسال رسالتك. يرجى التواصل عبر واتساب.",
+ social_t:"تابعونا", biz_t:"استفسارات الأعمال", biz_p:"للمناسبات والتموين والشراكات، راسلونا واذكروا كلمة «أعمال».",
+ ft_p:"قهوة ومعجنات وحلويات.", ft_links:"الصفحات", ft_follow:"تابعونا", rights:"جميع الحقوق محفوظة."
+}};
